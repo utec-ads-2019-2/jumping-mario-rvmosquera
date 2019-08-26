@@ -1,4 +1,4 @@
-#include <fstream>
+//#include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
@@ -72,6 +72,6 @@ int main() {
 
     for (int j = 0; j < results.size(); j++)
         cout << "Case " << j + 1 << ": " << results.at(j).first << " " << results.at(j).second << endl;
-
+    cout << endl;
     return EXIT_SUCCESS;
 }
